@@ -1,0 +1,434 @@
+p{
+    font-family: 'rubik';
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #000;
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section.header{
+    padding: 20px 0;
+    background-color: #F8F6F6 ;
+}
+section.header ul li{
+    font-family: 'rubik';
+    color: #000;
+    font-weight: 600;
+}
+section.header i{
+    color: red;
+}
+section.header .contact a{
+    text-decoration: none;
+    color: #000;
+}
+section.header button{
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 7px 22px;
+
+}
+section.header .intro{
+    padding-top: 120px;
+}
+
+section.header .logo{
+    margin: 40px 0;
+}
+section.header input, textarea{
+    width: 75%;
+    padding: 5px 14px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 15px;
+}
+section.header input:focus, textarea:focus{
+    border: none;
+}
+section.numbers{
+    padding: 40px 0;
+    margin-bottom: 3rem;
+}
+section.numbers .years::before{
+    content: url(animate-element/circle.png);
+    position: absolute;
+    top: -100px;
+    left: -20px;
+    z-index: -1;
+}section.numbers .people::before{
+    content: url(animate-element/circle.png);
+    position: absolute;
+    top: -100px;
+    left: 260px;
+    z-index: -1;
+}section.numbers .projects::before{
+    content: url(animate-element/circle.png);
+    position: absolute;
+    top: -100px;
+    right: 260px;
+    z-index: -1;
+}section.numbers .score::before{
+    content: url(animate-element/circle.png);
+    position: absolute;
+    top: -100px;
+    right: -20px;
+    z-index: -1;
+}
+section.numbers .description::before{
+    content: url(animate-element/5.png);
+    position: absolute;
+    right: 15%;
+    top: 80%;
+}
+section.app{
+    padding: 40px 0;
+    background-color: #F5FEFA;
+    margin-bottom: 3rem;
+}
+section.app .box{
+    padding: 40px 5px;
+}
+section.app h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+section.app img{
+    margin-bottom: 1rem;
+}
+section.app p{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+section.app a{
+    text-decoration: none;
+}
+section.app .box:hover{
+    background: white;
+
+}
+section.creativity{
+    padding: 40px 0;
+    margin-bottom: 3rem;
+}
+section.creativity .row{
+    margin-top: 5rem;
+}
+section.creativity #heading{
+    color: #4E359C;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+section.creativity .btn-1{
+    color: #4E359C;
+    background: none;
+    padding: 10px;
+    width: 12rem;
+    border: 1px solid #4E359C;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right: 1rem;
+
+}
+section.creativity .btn-1:hover{
+    color: #fff;
+    background: #4E359C;
+    transition-delay: 100ms;
+}
+section.creativity .btn-2{
+    color: #fff;
+    background: #181E37;
+    padding: 10px;
+    width: 12rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+section.creativity .btn-2:hover{
+    color: #181E37;
+    border: 1px solid #181E37;
+    background: #fff;
+    transition-delay: 100ms;
+}
+section.nft{
+    padding: 40px 0;
+    margin-bottom: 3rem;
+}
+section.nft .row{
+    margin-top: 5rem;
+}
+section.nft #heading{
+    color: #F7710D;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+section.nft .btn-1{
+    color: #F7710D;
+    background: none;
+    padding: 10px;
+    width: 12rem;
+    border: 1px solid #F7710D;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right: 1rem;
+
+}
+section.nft .btn-1:hover{
+    color: #fff;
+    background: #F7710D;
+    transition-delay: 100ms;
+}
+section.nft .btn-2{
+    color: #fff;
+    background: #181E37;
+    padding: 10px;
+    width: 12rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+section.nft .btn-2:hover{
+    color: #181E37;
+    border: 1px solid #181E37;
+    background: #fff;
+    transition-delay: 100ms;
+}
+section.pharmacy{
+    padding: 40px 0;
+    margin-bottom: 3rem;
+}
+section.pharmacy .row{
+    margin-top: 5rem;
+}
+section.pharmacy #heading{
+    color: #3D3EFA;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+section.pharmacy .btn-1{
+    color: #3D3EFA;
+    background: none;
+    padding: 10px;
+    width: 12rem;
+    border: 1px solid #3D3EFA;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right: 1rem;
+
+}
+section.pharmacy .btn-1:hover{
+    color: #fff;
+    background: #3D3EFA;
+    transition-delay: 100ms;
+}
+section.pharmacy .btn-2{
+    color: #fff;
+    background: #181E37;
+    padding: 10px;
+    width: 12rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+section.pharmacy .btn-2:hover{
+    color: #181E37;
+    border: 1px solid #181E37;
+    background: #fff;
+    transition-delay: 100ms;
+}
+section.reservations{
+    padding: 40px 0;
+    margin-bottom: 3rem;
+}
+section.reservations .row{
+    margin-top: 5rem;
+}
+section.reservations #heading{
+    color: #F5672D;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+section.reservations .btn-1{
+    color: #F5672D;
+    background: none;
+    padding: 10px;
+    width: 12rem;
+    border: 1px solid #F5672D;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right: 1rem;
+
+}
+section.reservations .btn-1:hover{
+    color: #fff;
+    background: #F5672D;
+    transition-delay: 100ms;
+}
+section.reservations .btn-2{
+    color: #fff;
+    background: #181E37;
+    padding: 10px;
+    width: 12rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+section.reservations .btn-2:hover{
+    color: #181E37;
+    border: 1px solid #181E37;
+    background: #fff;
+    transition-delay: 100ms;
+}
+section.importance{
+    padding: 40px 0;
+    background: #F4FDF9;
+    margin-bottom: 3rem;
+}
+section.clients{
+    padding: 40px 0;
+}
+section.clients #row-1{
+    margin-top: 5rem; 
+}
+section.industry{
+    padding: 40px 0;
+    background-color: #F4FDF9;
+}
+ section.industry .box{
+    padding: 30px;
+} 
+section.industry img{
+    margin-bottom: 2rem;
+}
+section.industry p{
+    font-size: 16px ;
+    font-weight: 500;
+}
+section.industry h3{
+    font-weight: 700;
+}
+section.reviews{
+    padding: 40px 0;
+}
+section.reviews .row{
+    margin-top: 5rem;
+}
+section.reviews #row{
+    padding-left: 110px;
+}
+section.reviews .stars{
+    margin: 20px 0;
+}
+section.feature{
+    padding: 40px 0;
+}
+section.feature .description{
+    margin-bottom: 3rem;
+}
+section.feature #img{
+    max-width: 100%;
+}
+section.feature img:hover{
+    box-shadow: #3D3EFA;
+}
+section.about{
+    padding: 40px 0;
+    background: #F4FDF9;
+}
+section.about input, textarea{
+    width: 100%;
+    padding: 5px 14px;
+    margin: 10px 0;
+    border: 1px solid #F5FEFA;
+    border-radius: 15px;
+    background-color: #F5F8FA;
+}
+section.about span{
+    font-size: 14px;
+    font-family: 'rubik';
+}
+section.about button{
+    color: #fff;
+    background: #F5672D;
+    border-radius: 5px;
+    padding: 5px 10px ;
+    width: 5rem;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'rubik';
+}
+section.about button:hover{
+    color: #fff;
+    background: #F5672D;
+    border-radius: 5px;
+    padding: 5px 10px ;
+    width: 5rem;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'rubik';
+
+}
+section.contact{
+    padding: 60px 0;
+}
+section.contact h5{
+    font-weight: 900;
+    font-family: 'PlayFair Display', 'Serif';
+}
+section.contact p{
+    font-size: 15px;
+    font-family: 'rubik';
+    font-weight: 600;
+}
+
+.usa, .uae, .pak, .phone, .pin{
+    margin-bottom: 0.5rem;
+}
+section.contact .usa::before{
+    content: url(FooterUSAIcon.png);
+    left: -30px;
+
+    position: absolute;
+}
+section.contact .uae::before{
+    content: url(FooterFlagUIcon.png);
+    left: -30px;
+
+    position: absolute;
+}
+section.contact .pak::before{
+    content: url(FooterFlagPIcon.png);
+    left: -30px;
+
+    position: absolute;
+}
+section.contact .phone::before{
+    content: url(footerIcon-3.png);
+    left: -30px;
+
+    position: absolute;
+}
+section.contact .pin::before{
+    content: url(footerIcon-1.png);
+    left: -30px;
+
+    position: absolute;
+}
+footer p{
+    font-weight: 500;
+    font-family: 'rubik';
+    padding-bottom: 0.5rem;
+}
